@@ -6,4 +6,5 @@ seaborn
 scipy
 scikit-learn
 streamlit
+tensorflow
 jupyter
