@@ -22,7 +22,7 @@ user_inputs_year = []
 
 for col, min_val in min_values.items():
     max_val = max_values[col]
-    if min_val.dtype == 'int64':
+    if np.array(min_val).dtype == 'int64':
         s=1  # Step size
     else:
         s=1.0
